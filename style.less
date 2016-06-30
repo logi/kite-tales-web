@@ -3,6 +3,7 @@
 @COL_BLUE: hsl(212, 55%, 35%); // Pantone 2945U
 @COL_BLUE_LIGHT: hsl(204, 72%, 60%);
 @COL_YELLOW: hsl(41, 100%, 53%); // Pantone 116U
+@COL_YELLOW_LIGHT: rgb(247, 227, 96);
 
 body {
 	padding: 10px;
@@ -36,16 +37,19 @@ ul, ol {
 
 p {
 	margin: 5px 0 0 0;
+	text-align: justify;
 }
 
 a {
 	color: @COL_BLUE;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
-	background: @COL_YELLOW;
-	margin: -2px;
-	padding: 2px;
+	background: @COL_YELLOW_LIGHT;
+	margin: -1 -2px;
+	padding: 1 2px;
 }
 
 img.head-logo {

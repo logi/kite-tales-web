@@ -1,0 +1,32 @@
+body {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, serif;
+  font-size: 16px;
+  background: #dddddd;
+}
+.wrapper {
+  display: inline-block;
+  padding: 10px;
+  min-width: 300px;
+  max-width: 800px;
+  text-align: left;
+  background: #ffffff;
+}
+h1 {
+  margin: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+ul,
+ol {
+  padding: 0;
+}
+.social-media-list li {
+  list-style: none;
+  margin-left: 15px;
+}
+.social-media-list .site {
+  display: inline-block;
+  width: 80px;
+}
